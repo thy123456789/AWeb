@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+ "http://struts.apache.org/dtds/struts-2.0.dtd">
+ 
+ <struts>
+     	<package name="a" namespace="/" extends="struts"> 
+     	     <action name="login"  class="actionLei.Aaction"  method="x">
+     	           <result name="xx">/xx.jsp</result>
+     	           <result name="yy">/yy.jsp</result>
+     	     </action > 
+     	</package>
+ 
+ 
+ </struts>
